@@ -29,7 +29,7 @@ function listNFTs() {
   
   for (let i = 0; i < MJR_NFTs.length; i++) {
     const NFT = MJR_NFTs[i];
-    console.log(" "); 
+    console.log("\n"); 
     console.log("Name: " + NFT.name);
     console.log("Artist: " + NFT.artist);
     console.log("Song: " + NFT.song);
@@ -39,7 +39,7 @@ function listNFTs() {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log("NFTs length: ", MJR_NFTs.length)
+    console.log("\n"+"NFTs length: " +  MJR_NFTs.length)
 }
 
 // call your functions below this line
@@ -49,9 +49,7 @@ mintNFT("Maroon 5", "Songs About Jane", "She Will Be Loved");
 mintNFT("Fall Out Boy ", "From Under the Cork Tree", "Sugar, We're Goin Down");
 
 listNFTs(); // Print NFT metadata
-
-
-
-
-
 getTotalSupply();
+
+
+
