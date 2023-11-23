@@ -1,0 +1,37 @@
+Functionality
+1. Minting NFTs
+Use the mintNFT function to create new NFTs.
+Parameters: name, artist, song.
+
+Example:
+
+mintNFT("Ed Sheeran", "Plus", "A Team");
+
+2. Listing NFTs
+The listNFTs function iterates through the NFT collection and prints metadata to the console.
+
+Example:
+
+listNFTs();
+
+3. Total NFT Supply
+The getTotalSupply function returns the total number of minted NFTs.
+Example:
+
+getTotalSupply();
+
+
+Sample Usage
+
+mintNFT("Ed Sheeran", "Plus", "A Team");
+mintNFT("Post Malone", "Austin", "Chemical");
+mintNFT("Maroon 5", "Songs About Jane", "She Will Be Loved");
+mintNFT("Fall Out Boy", "From Under the Cork Tree", "Sugar, We're Goin Down");
+
+listNFTs();
+getTotalSupply();
+
+Notes
+Each NFT is represented as an object with properties name, artist, and song.
+The NFTs are stored in the MJR_NFTs array.
+Metadata can be customized based on individual preferences.
